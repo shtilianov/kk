@@ -17,14 +17,23 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
+<<<<<<< HEAD
             "Runtime ID": "97cffc61-3ae2-431b-a14d-99a8b9ebef80",
             "Description": "Navigate to : 'http://google.com'",
+=======
+            "Runtime ID": "87666ae0-82cf-4452-8a71-644c99da3b67",
+            "Description": "Navigate to : 'http://bing.com'",
+>>>>>>> master
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.NavigateToActionDescriptor",
               "__value": {
                 "UseDecodedUrl": true,
+<<<<<<< HEAD
                 "NavigateURL": "http://google.com",
+=======
+                "NavigateURL": "http://bing.com",
+>>>>>>> master
                 "BaseUrl": "",
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
@@ -53,7 +62,11 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
+<<<<<<< HEAD
             "StepImageKey": "WebTestdn2kxpxw.e22",
+=======
+            "StepImageKey": "WebTesthjut1bp2.srf",
+>>>>>>> master
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -62,6 +75,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
+<<<<<<< HEAD
             "Runtime ID": "c66ada24-8227-4d07-bc54-4d46805b9e11",
             "Description": "Keyboard (KeyPress) - Escape (1 times) on 'LstIbText'",
             "CustomDescription": null,
@@ -73,6 +87,15 @@
                 "HoldFor": 150,
                 "Action": 0,
                 "RepeatCount": 1,
+=======
+            "Runtime ID": "ff075401-3054-49ad-be13-d713a33707ca",
+            "Description": "Click 'Scpl2Link'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
+              "__value": {
+                "SimulateRealClick": false,
+>>>>>>> master
                 "UsejQuery": false,
                 "UseBackupSearch": true,
                 "ClosesBrowser": false,
@@ -97,6 +120,7 @@
                       "Page": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
+<<<<<<< HEAD
                           "Path": "https://www.google.bg/",
                           "Query": "?gfe_rd=cr&ei=Can4WPyfLKfY8AfSkpSICw&gws_rd=ssl",
                           "BaseUrl": "",
@@ -106,6 +130,17 @@
                           "CompareMode": 2,
                           "AlwaysUseTitleInCompare": false,
                           "FriendlyName": "Google"
+=======
+                          "Path": "http://www.bing.com/",
+                          "Query": "",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Bing",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "Bing"
+>>>>>>> master
                         }
                       },
                       "Frame": null,
@@ -113,10 +148,17 @@
                       "FindExpression": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
                         "__value": {
+<<<<<<< HEAD
                           "uniqueKey": "ZSnQvWpLrz8J83b85yd/+ZX0jSw=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
                           "Name": "LstIbText",
+=======
+                          "uniqueKey": "SL0Sup7vXAg3Rw/JoobIuQfNOss=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "Scpl2Link",
+>>>>>>> master
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -127,13 +169,21 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
+<<<<<<< HEAD
                                         "Clause": "tagname=input"
+=======
+                                        "Clause": "tagname=a"
+>>>>>>> master
                                       }
                                     },
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
+<<<<<<< HEAD
                                         "Clause": "id=lst-ib"
+=======
+                                        "Clause": "id=scpl2"
+>>>>>>> master
                                       }
                                     }
                                   ],
@@ -147,7 +197,11 @@
                           "DataBindingExpressions": {}
                         }
                       },
+<<<<<<< HEAD
                       "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputText",
+=======
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlAnchor",
+>>>>>>> master
                       "IsIndependent": false,
                       "DomStateKey": "",
                       "TechnologyType": 1,
@@ -166,7 +220,11 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
+<<<<<<< HEAD
             "StepImageKey": "WebTestnuycxy5m.as5",
+=======
+            "StepImageKey": "WebTestnzb5rp1q.xmy",
+>>>>>>> master
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -175,6 +233,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
+<<<<<<< HEAD
             "Runtime ID": "33d1e681-2acf-4418-a637-785ef7ef69b7",
             "Description": "Navigate to : 'http://google.com'",
             "CustomDescription": null,
@@ -187,11 +246,26 @@
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
+=======
+            "Runtime ID": "bc07d930-6ce5-489b-afaf-545aefea83f3",
+            "Description": "Click 'Scpl1Link'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
+              "__value": {
+                "SimulateRealClick": false,
+>>>>>>> master
                 "UsejQuery": false,
                 "UseBackupSearch": true,
                 "ClosesBrowser": false,
                 "AjaxTimeout": 0,
                 "Pause": 0,
+<<<<<<< HEAD
+=======
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+>>>>>>> master
                 "RunsAgainstVersion": "",
                 "Constraints": {
                   "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
@@ -199,7 +273,77 @@
                     "ConstraintValues": {}
                   }
                 },
+<<<<<<< HEAD
                 "Elements": {},
+=======
+                "Elements": {
+                  "target": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "target",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "http://www.bing.com/",
+                          "Query": "",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Bing",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "Bing"
+                        }
+                      },
+                      "Frame": null,
+                      "FindInfo": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "f32Z8Gd8wRfpsLI7QuZkmdNwrAU=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "Scpl1Link",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=a"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "id=scpl1"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": null,
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlAnchor",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+>>>>>>> master
                 "StepType": 4,
                 "LogMessageOnFailure": "",
                 "EditorType": "",
@@ -211,7 +355,11 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
+<<<<<<< HEAD
             "StepImageKey": "WebTestkgejg4gb.n04",
+=======
+            "StepImageKey": "WebTestkckgtcm0.wup",
+>>>>>>> master
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -229,7 +377,11 @@
     "SilverlightAppOriginUri": null,
     "WpfAppPath": null,
     "UseDefaultWpfAppPath": false,
+<<<<<<< HEAD
     "TestAssembly": "TestProject202.dll",
+=======
+    "TestAssembly": "TestProject184.dll",
+>>>>>>> master
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
@@ -268,9 +420,15 @@
     "Path": "WebTest.tstest",
     "Priority": 0,
     "TestType": 0,
+<<<<<<< HEAD
     "UniqueId": "7f0fb71c-92c8-460f-a5f3-9eeb45f981f7",
     "Id": "7f0fb71c-92c8-460f-a5f3-9eeb45f981f7",
     "ProjectId": "dc460cec-a899-4dac-b1f8-0e891d364f8a",
+=======
+    "UniqueId": "fbb7a746-a15d-44c2-a9e3-3dfc35322287",
+    "Id": "fbb7a746-a15d-44c2-a9e3-3dfc35322287",
+    "ProjectId": "9f683c91-3fef-4d18-95eb-a6417cea77a1",
+>>>>>>> master
     "Version": 200
   }
 }
